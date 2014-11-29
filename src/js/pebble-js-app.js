@@ -180,7 +180,7 @@ function locationError(err) {
 }
 
 Pebble.addEventListener('showConfiguration', function(e) {
-  var uri = 'http://tallerthenyou.github.io/simplicity-with-day/configuration.html?' +
+  var uri = 'https://github.com/dwestcott/simplicity-with-day/configuration.html?' +
     'use_gps=' + encodeURIComponent(options['use_gps']) +
     '&location=' + encodeURIComponent(options['location']) +
     '&units=' + encodeURIComponent(options['units']) +
